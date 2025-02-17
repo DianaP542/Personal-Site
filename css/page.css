@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(229, 217, 238);
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(213, 189, 222);
+    border-bottom: solid rgb(156, 134, 165);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-weight: bold;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(55, 27, 55);
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(233, 217, 239);
+    color: rgb(55, 27, 55);
+  }
+  
+  .topnav a.active {
+    background-color:  #cd93e1;
+    color: rgb(55, 27, 55);
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+.logo{
+  position: relative;
+  display: inline;
+  float: right;
+}
+
+.logo a{
+    padding: 5px 5px;
+    
+}
+
+a img{
+    border-radius: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.sm{
+    display: flex;
+    flex-wrap:wrap; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.sm a{
+    text-decoration:none;
+    border:0;
+    width:30px;
+    height:30px;
+    padding:2px;
+    margin:5px;
+    color:#fbe9fd;
+    border-radius:50%;
+    background-color:#0d2744;
+}
+
+.niftybutton-sm{
+    display:block;
+    fill:currentColor;
+}
+
+hr{
+    border: 1px dotted #0d2744;
+    margin: 20px;
+}
+
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .logo:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      position: sticky;
+    }
+
+    .logo a{
+        margin-left: 20%;
+    }
+    .topnav.responsive {position: sticky;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      margin-left: 0;
+    }
+    .topnav.responsive a img{
+        width: 40px;
+        margin-left: 10px;
+    }
+  }
+  

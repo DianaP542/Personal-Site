@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    background-image: url("/images/munte.jpg");
+    min-height: 525px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: rgb(213, 189, 222);
+    color: rgb(55, 27, 55);
+  }
+  
+  /* Full-width input fields */
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: rgb(229, 217, 238);
+  }
+  
+  input[type=text]:focus{
+    background-color: rgb(244, 226, 245);
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: rgb(55, 27, 55);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
