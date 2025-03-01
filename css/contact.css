@@ -3,7 +3,7 @@
   }
   
   .bg-img {
-    background-image: url("/images/munte.jpg");
+    background-image: url("../images/munte.jpg");
     min-height: 525px;
     background-position: center;
     background-repeat: no-repeat;
