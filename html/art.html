@@ -14,8 +14,6 @@
     </head>
 <body>
 
-    <!--Self note- Add a "Back to the top of the page" button-->
-
     <!--navigatie-->
     <div class="topnav" id="myTopnav">
         <a href="../home.html">Home</a>
@@ -42,9 +40,14 @@
             Here is a collection of all of my artwork from the past few years. This includes paintings, sketches and digital works
         </p>
     </div>
+
+    <button onclick="toTop()" id="topBtn" title="Go to Top">
+        <i class="fa fa-angle-up"></i>
+    </button>
     
     <!--Image gallery-->
     <div class="gallery">
+        
         <div class="row">
             <div class="column">
                 <img src="../art/anais.jpg">
@@ -143,17 +146,7 @@
         <p style="text-align:center;">&copy; 2024 My Personal Website. All rights reserved.</p>
     </footer>
 
-    <!--partea de javascript-->
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-
+    <script src="../js/script.js"></script>
+    <script src="../js/art.js"></script>
 </body>
 </html>

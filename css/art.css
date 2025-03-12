@@ -53,3 +53,27 @@
       max-width: 100%;
     }
   }
+
+#topBtn {
+  display: none;
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  font-size: xx-large;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #cd93e1;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#topBtn:hover{
+  background-color: #be6eb1;
+}
+
+html {scroll-behavior: smooth;}
